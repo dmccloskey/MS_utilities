@@ -5,7 +5,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1280a283-36fb-482d-9374-7db052214d69</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>MS_utilities.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,9 +29,13 @@
     <Compile Include="calibrators.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="internal_standards.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="liquid_chromatography.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="main.py" />
     <Compile Include="mixes.py">
       <SubType>Code</SubType>
     </Compile>
@@ -40,7 +45,6 @@
     <Compile Include="components.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MS_utilities.py" />
     <Compile Include="quantitation_method.py">
       <SubType>Code</SubType>
     </Compile>
